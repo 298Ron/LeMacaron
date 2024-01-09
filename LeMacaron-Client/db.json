@@ -1,0 +1,383 @@
+{
+  "users": [
+    {
+      "firstName": "Ron2",
+      "middleName": "sert",
+      "lastName": "Shilimov",
+      "phone": "0533396906",
+      "email": "Ron@gmail.com",
+      "password": "123123",
+      "imageUrl": "https://picsum.photos/200/300",
+      "imageAlt": "idk",
+      "country": "Israel",
+      "city": "Ashdod",
+      "street": "Ashdod",
+      "houseNumber": 12,
+      "zip": 777152,
+      "role": "isAdmin",
+      "id": 1
+    },
+    {
+      "firstName": "Olga",
+      "middleName": "idk",
+      "lastName": "Shilimov",
+      "phone": "111111111",
+      "email": "Olga@gmail.com",
+      "password": "123123",
+      "imageUrl": "https://picsum.photos/200/300",
+      "imageAlt": "idk",
+      "state": "idk",
+      "country": "idk",
+      "city": "idk",
+      "street": "idk",
+      "houseNumber": 1342,
+      "zip": 12332,
+      "role": "isBusiness",
+      "id": 2
+    },
+    {
+      "firstName": "Eli",
+      "middleName": "Abramov",
+      "lastName": "Hanukaev",
+      "phone": "+2222222222",
+      "email": "Eli@gmail.com",
+      "password": "123123",
+      "imageUrl": "https://picsum.photos/200/300",
+      "imageAlt": "Random ",
+      "state": "America",
+      "country": "idk",
+      "city": "idk",
+      "street": "idk",
+      "houseNumber": 2,
+      "zip": 111111,
+      "role": "isUser",
+      "id": 3
+    },
+    {
+      "firstName": "Ksenia",
+      "middleName": "idk",
+      "lastName": "Bobov",
+      "phone": "+2222222222",
+      "email": "Ksenia@gmail.com",
+      "password": "123123",
+      "imageUrl": "https://picsum.photos/200/300",
+      "imageAlt": "idk",
+      "state": "idk",
+      "country": "idk",
+      "city": "idk",
+      "street": "idk",
+      "houseNumber": 2,
+      "zip": 2,
+      "role": "isUser",
+      "id": 4
+    }
+  ],
+  "cards": [
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "ABC Car Dealership",
+      "description": "We sell new and used cars at competitive prices.",
+      "phone": "+1 (123) 456-7890",
+      "country": "United States",
+      "city": "New York",
+      "street": "123 Main Street",
+      "houseNumber": "555",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=123%20Main%20Street,%20New%20York&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Automotive",
+      "id": 1
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "XYZ Coffee Shop",
+      "description": "Relax and enjoy a variety of handcrafted coffees and pastries.",
+      "phone": "+44 20 1234 5678",
+      "country": "United Kingdom",
+      "city": "London",
+      "street": "456 High Street",
+      "houseNumber": "22",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=456%20High%20Street,%20London&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Food & Beverage",
+      "id": 2
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Tech Solutions Inc.",
+      "description": "We provide IT solutions for businesses of all sizes.",
+      "phone": "+49 30 12345678",
+      "country": "Germany",
+      "city": "Berlin",
+      "street": "789 Tech Avenue",
+      "houseNumber": "7",
+      "creatorId": 2,
+      "mapLink": "https://maps.google.com/maps?q=789%20Tech%20Avenue,%20Berlin&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Technology",
+      "id": 3
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Fashionista Boutique",
+      "description": "Discover the latest fashion trends and exclusive designs.",
+      "phone": "+61 2 1234 5678",
+      "country": "Australia",
+      "city": "Sydney",
+      "street": "321 Fashion Street",
+      "houseNumber": "10",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=321%20Fashion%20Street,%20Sydney&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Fashion",
+      "id": 4
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Green Thumb Nursery",
+      "description": "Your one-stop-shop for all your gardening needs.",
+      "phone": "+1 (987) 654-3210",
+      "country": "Canada",
+      "city": "Toronto",
+      "street": "567 Garden Road",
+      "houseNumber": "15",
+      "creatorId": 2,
+      "mapLink": "https://maps.google.com/maps?q=567%20Garden%20Road,%20Toronto&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Home & Garden",
+      "id": 5
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Cozy Bookstore",
+      "description": "Discover your next favorite book in our cozy and welcoming bookstore.",
+      "phone": "+1 (555) 123-4567",
+      "country": "United States",
+      "city": "San Francisco",
+      "street": "789 Book Avenue",
+      "houseNumber": "3",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=789%20Book%20Avenue,%20San%20Francisco&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Books",
+      "id": 6
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Fit & Active Gym",
+      "description": "Achieve your fitness goals with our state-of-the-art equipment and expert trainers.",
+      "phone": "+44 20 5555 6789",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "street": "456 Fitness Lane",
+      "houseNumber": "10",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=456%20Fitness%20Lane,%20Manchester&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Fitness",
+      "id": 7
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Delicious Bites",
+      "description": "Indulge in a wide selection of mouthwatering dishes from around the world.",
+      "phone": "+49 30 5555 6789",
+      "country": "Germany",
+      "city": "Berlin",
+      "street": "123 Food Street",
+      "houseNumber": "25",
+      "creatorId": 2,
+      "mapLink": "https://maps.google.com/maps?q=123%20Food%20Street,%20Berlin&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Food",
+      "id": 8
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Sparkle Jewelry",
+      "description": "Find the perfect piece of jewelry to add sparkle to your life.",
+      "phone": "+61 2 5555 6789",
+      "country": "Australia",
+      "city": "Sydney",
+      "street": "777 Jewelry Avenue",
+      "houseNumber": "30",
+      "creatorId": 1,
+      "mapLink": "https://maps.google.com/maps?q=777%20Jewelry%20Avenue,%20Sydney&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+      "category": "Jewelry",
+      "id": 9
+    }
+  ],
+  "favCards": [
+    {
+      "userId": 1,
+      "cards": [
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "Fit & Active Gym",
+          "description": "Achieve your fitness goals with our state-of-the-art equipment and expert trainers.",
+          "phone": "+44 20 5555 6789",
+          "country": "United Kingdom",
+          "city": "Manchester",
+          "street": "456 Fitness Lane",
+          "houseNumber": "10",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=456%20Fitness%20Lane,%20Manchester&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Fitness",
+          "id": 7
+        },
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "Cozy Bookstore",
+          "description": "Discover your next favorite book in our cozy and welcoming bookstore.",
+          "phone": "+1 (555) 123-4567",
+          "country": "United States",
+          "city": "San Francisco",
+          "street": "789 Book Avenue",
+          "houseNumber": "3",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=789%20Book%20Avenue,%20San%20Francisco&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Books",
+          "id": 6
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "cards": [
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "ABC Car Dealership",
+          "description": "We sell new and used cars at competitive prices.",
+          "phone": "+1 (123) 456-7890",
+          "country": "United States",
+          "city": "New York",
+          "street": "123 Main Street",
+          "houseNumber": "555",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=123%20Main%20Street,%20New%20York&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Automotive",
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "cards": [
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "XYZ Coffee Shop",
+          "description": "Relax and enjoy a variety of handcrafted coffees and pastries.",
+          "phone": "+44 20 1234 5678",
+          "country": "United Kingdom",
+          "city": "London",
+          "street": "456 High Street",
+          "houseNumber": "22",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=456%20High%20Street,%20London&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Food & Beverage",
+          "id": 2
+        },
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "ABC Car Dealership",
+          "description": "We sell new and used cars at competitive prices.",
+          "phone": "+1 (123) 456-7890",
+          "country": "United States",
+          "city": "New York",
+          "street": "123 Main Street",
+          "houseNumber": "555",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=123%20Main%20Street,%20New%20York&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Automotive",
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "cards": [
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "XYZ Coffee Shop",
+          "description": "Relax and enjoy a variety of handcrafted coffees and pastries.",
+          "phone": "+44 20 1234 5678",
+          "country": "United Kingdom",
+          "city": "London",
+          "street": "456 High Street",
+          "houseNumber": "22",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=456%20High%20Street,%20London&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Food & Beverage",
+          "id": 2
+        },
+        {
+          "image": "https://picsum.photos/200/300",
+          "title": "ABC Car Dealership",
+          "description": "We sell new and used cars at competitive prices.",
+          "phone": "+1 (123) 456-7890",
+          "country": "United States",
+          "city": "New York",
+          "street": "123 Main Street",
+          "houseNumber": "555",
+          "creatorId": 1,
+          "mapLink": "https://maps.google.com/maps?q=123%20Main%20Street,%20New%20York&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+          "category": "Automotive",
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": {
+        "firstName": "Ksenia",
+        "middleName": "idk",
+        "lastName": "Bobov",
+        "phone": "+2222222222",
+        "email": "Ksenia@gmail.com",
+        "password": "123123",
+        "imageUrl": "https://picsum.photos/200/300",
+        "imageAlt": "idk",
+        "state": "idk",
+        "country": "idk",
+        "city": "idk",
+        "street": "idk",
+        "houseNumber": 2,
+        "zip": 2,
+        "role": "isUser",
+        "id": 4
+      },
+      "cards": [],
+      "id": 5
+    },
+    {
+      "userId": [
+        {
+          "firstName": "Ksenia",
+          "middleName": "idk",
+          "lastName": "Bobov",
+          "phone": "+2222222222",
+          "email": "Ksenia@gmail.com",
+          "password": "123123",
+          "imageUrl": "https://picsum.photos/200/300",
+          "imageAlt": "idk",
+          "state": "idk",
+          "country": "idk",
+          "city": "idk",
+          "street": "idk",
+          "houseNumber": 2,
+          "zip": 2,
+          "role": "isUser",
+          "id": 4
+        }
+      ],
+      "cards": [],
+      "id": 6
+    },
+    {
+      "userId": [],
+      "cards": [],
+      "id": 7
+    },
+    {
+      "userId": [],
+      "cards": [],
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+::1 - - [09/Jan/2024:14:46:38 +0000] "POST /api/users/login HTTP/1.1" 404 23
+::1 - - [09/Jan/2024:14:47:10 +0000] "POST /api/users/login HTTP/1.1" 404 23
+::1 - - [09/Jan/2024:14:56:22 +0000] "PATCH /api/users/65902a6e2cbe992494a4c8f2 HTTP/1.1" 404 175
+::1 - - [09/Jan/2024:14:57:41 +0000] "PATCH /api/users/65902a6e2cbe992494a4c8f2 HTTP/1.1" 400 63
+::1 - - [09/Jan/2024:16:46:19 +0000] "POST /api/users/login HTTP/1.1" 400 23
+::1 - - [09/Jan/2024:16:47:34 +0000] "PATCH /api/users/pass/659c0a9ce7169a2c6b8f1af9 HTTP/1.1" 400 25
+::1 - - [09/Jan/2024:16:48:37 +0000] "PATCH /api/users/pass/659c0a9ce7169a2c6b8f1af9 HTTP/1.1" 400 25
+::1 - - [09/Jan/2024:16:48:44 +0000] "PATCH /api/users/pass/659c0a9ce7169a2c6b8f1af9 HTTP/1.1" 400 25
+::1 - - [09/Jan/2024:16:49:23 +0000] "PATCH /api/users/pass/659c0a9ce7169a2c6b8f1af9 HTTP/1.1" 400 25
+::1 - - [09/Jan/2024:16:54:52 +0000] "POST /api/users/login HTTP/1.1" 404 23

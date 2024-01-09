@@ -1,0 +1,12 @@
+::1 - - [26/Dec/2023:14:54:52 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 63
+::1 - - [26/Dec/2023:14:55:52 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:14:57:20 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:14:57:26 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:14:57:44 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:14:58:45 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:15:00:20 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:15:01:03 +0000] "DELETE /api/users/undefined HTTP/1.1" 400 244
+::1 - - [26/Dec/2023:15:22:33 +0000] "GET /api/users HTTP/1.1" 400 13
+::1 - - [26/Dec/2023:15:22:33 +0000] "GET /api/users HTTP/1.1" 400 13
+::1 - - [26/Dec/2023:15:22:40 +0000] "GET /api/users HTTP/1.1" 400 13
+::1 - - [26/Dec/2023:15:22:40 +0000] "GET /api/users HTTP/1.1" 400 13

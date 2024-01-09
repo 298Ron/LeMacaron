@@ -1,0 +1,293 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.checkOut {
+  position: relative;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* ANIMATIONS ONLOAD*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translatex(0%);
+  }
+}
+
+
+.animationLeftSlide {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.animationRightSlide {
+  animation: 0.6s ease-in 0s 1 slideInFromRight;
+}
+
+/* END OF ANIMATIONS */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .summary {
+    display: none;
+  }
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #4A4043;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.home,
+.card {
+  font-family: Montserrat;
+}
+
+
+#light,
+.App {
+  background-color: #F0B4BF;
+  color: #4A4043;
+}
+
+
+
+#light .navbar {
+  background-color: #EE8EAE;
+  color: #4A4043;
+}
+
+#light .downfooter {
+  background-color: #EE8EAE
+}
+
+#light .backColorImage {
+  background-color: #EE8EAE;
+}
+
+#light .rightColumn {
+  background-color: #EE8EAE;
+}
+
+#light .newCard {
+  background-color: #EE8EAE;
+}
+
+#light .card {
+  background-color: #EE8EAE;
+  color: #4A4043;
+}
+
+#light .btn {
+  background-color: #EE8EAE;
+  color: #4A4043;
+}
+
+#light .btn2 {
+  border: #4A4043 solid 1px;
+  background-color: #EE8EAE;
+  color: #4A4043;
+}
+
+
+
+#dark,
+.App {
+  background-color: #272727;
+  color: #E5f4e3
+}
+
+#dark .navbar,
+.downfooter {
+  background-color: #CA2C92;
+  color: #E5f4e3
+}
+
+
+
+#dark .darkText {
+  color: white;
+}
+
+#light .darkText {
+  color: #4A4043;
+}
+
+#dark .backColorImage {
+  background-color: #CA2C92
+}
+
+#dark .rightColumn {
+  background-color: #CA2C92
+}
+
+#dark .newCard {
+  background-color: #CA2C92
+}
+
+#dark .card {
+  background-color: #CA2C92;
+  color: white;
+}
+
+#dark .btn {
+  background-color: #CA2C92;
+  color: white;
+}
+
+#dark .btn2 {
+  border: #CA2C92 solid 1px;
+  background-color: #fff;
+  color: #CA2C92;
+}
+
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+@keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.navHeader {
+  transform: scale(1);
+  transition: 0.5s;
+
+}
+
+.navHeader:hover {
+
+  transform: translateX(5%);
+  transition: 0.5s;
+  color: black !important;
+}
+
+.image {
+  transform: scale(1.);
+  transition: 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  /* box-shadow: 0px 0px 25px 1px purple */
+}
+
+.image .btnHover {
+
+  opacity: 0%;
+  transition: 0.2sec;
+
+}
+
+.image:hover .btnHover {
+  border: none;
+  padding: 5px;
+  z-index: 1;
+  border-radius: 5px;
+  width: 227px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  opacity: 100%;
+  transform: scale(1.1);
+  transition: 0.7s;
+
+}
+
+.btn {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.07);
+  transition: 0.5s
+}
+
+
+.sideCartPanel {
+  display: none;
+  width: 30%;
+  height: 200%;
+  z-index: 1;
+  background-color: #999;
+  position: absolute;
+  right: 0%;
+}
+
+
+@import url("https: //fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat',
+    sans-serif;
+  src: url("https: //fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+}
