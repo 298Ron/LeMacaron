@@ -280,7 +280,7 @@ router.get("/search/:key", async (req, res) => {
                 { lastName: { $regex: req.params.key } },
                 { email: { $regex: req.params.key } },
                 { phone: { $regex: req.params.key } },
-                { role: { $regex: req.params.key } },
+             /*    { role: { $regex: req.params.key } }, */
 
             ]
         }
