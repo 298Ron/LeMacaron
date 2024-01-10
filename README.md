@@ -72,7 +72,7 @@ Email: Admin@gmail.com
 Password: 123123123
 
 3.SuperAdmin User:
-(Admin can change / add products to the shop + see all the existing users & change users roles)
+(Admin can change / add products to the shop + see / delete all the existing users & change users roles)
 
 Email: SuperAdmin@gmail.com
 
